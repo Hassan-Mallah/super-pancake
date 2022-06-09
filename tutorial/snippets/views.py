@@ -61,7 +61,7 @@ def snippet_detail(request, pk):
 
 # json view
 @csrf_exempt
-def snippet_list(request):
+def json_snippet_list(request):
     """
     List all code snippets, or create a new snippet.
     """
